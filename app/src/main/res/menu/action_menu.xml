@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About Us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_policy"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_update"
+        android:title="Check For Updates"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_chat"
+        android:title="Chat With Developer"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/mySwitch"
+        android:title=""
+        app:actionLayout="@layout/use_switch"
+        app:showAsAction="always" />
+
+
+</menu>
